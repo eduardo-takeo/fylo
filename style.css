@@ -24,10 +24,12 @@ html {
 body {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
+  background-color: var(--dark-blue-1);
 }
 
 a {
   text-decoration: none;
+  color: var(--white);
 }
 
 ul {
@@ -52,4 +54,28 @@ h2 {
 
 h3 {
   font-size: 1rem;
+}
+
+.logo {
+  width: 6rem;
+  height: 1.7rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  padding: 1rem;
+}
+
+header ul {
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.85rem;
+}
+
+header li {
+  margin-right: 1rem;
 }
