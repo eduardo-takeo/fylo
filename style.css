@@ -144,3 +144,37 @@ header li {
   width: 4rem;
   margin-bottom: 2rem;
 }
+
+.team {
+  background-color: var(--dark-blue-2);
+  padding: 5rem 0;
+}
+
+.team img:first-child {
+  width: 18rem;
+  margin-bottom: 2rem;
+}
+
+.team--text h2,
+p {
+  text-align: left;
+}
+
+.team--text a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 10rem;
+  border-bottom: 1px solid var(--cyan);
+  padding-bottom: 5px;
+}
+
+.team--text a > p {
+  color: var(--cyan);
+  margin-bottom: 0;
+}
+
+.team--text a > img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
