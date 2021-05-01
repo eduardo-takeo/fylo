@@ -39,7 +39,8 @@ ul {
 h1,
 h2,
 h3,
-p {
+p,
+span {
   color: var(--white);
   margin-bottom: 1.2rem;
   text-align: center;
@@ -67,6 +68,10 @@ p {
   font-size: 0.9rem;
   font-weight: 400;
   line-height: 20px;
+}
+
+span {
+  font-size: 0.6rem;
 }
 
 button {
@@ -177,4 +182,52 @@ p {
 .team--text a > img {
   width: 1.5rem;
   height: 1.5rem;
+}
+
+.comments {
+  background-color: var(--dark-blue-2);
+  padding: 4rem 0;
+}
+
+.comments--card {
+  background-color: var(--dark-blue-4);
+  margin-bottom: 2rem;
+  border-radius: 5px;
+  padding: 1.5rem;
+}
+
+.comments--card > img {
+  position: relative;
+  top: -2.7rem;
+  left: -1rem;
+  width: 2rem;
+}
+
+.comments--card p,
+h3 {
+  font-size: 0.8rem;
+}
+
+.comments--card__profile {
+  display: flex;
+  align-items: center;
+}
+
+.comments--card__profile img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.comments--card__profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.comments--card__profile-info h3,
+span {
+  margin-bottom: 0;
+  line-height: 1.2rem;
 }
