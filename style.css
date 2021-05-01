@@ -186,7 +186,7 @@ p {
 
 .comments {
   background-color: var(--dark-blue-2);
-  padding: 4rem 0;
+  padding: 4rem 0 15rem 0;
 }
 
 .comments--card {
@@ -230,4 +230,51 @@ h3 {
 span {
   margin-bottom: 0;
   line-height: 1.2rem;
+}
+
+.footer {
+  padding: 15rem 0 1rem 0;
+  background-color: var(--dark-blue-3);
+}
+
+.footer--info {
+  margin: 2rem 0;
+}
+
+.footer--info span {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.footer--info span > img {
+  width: 1.3rem;
+  height: 1rem;
+  margin-right: 1rem;
+}
+
+.footer--info span > p {
+  margin-bottom: 0;
+}
+
+.footer--menu {
+  align-self: flex-start;
+  margin-bottom: 2rem;
+}
+
+.footer--menu li {
+  margin-bottom: 1rem;
+}
+
+.footer--icons {
+  margin: 2rem 0;
+  width: 10rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer--icons a > img {
+  width: 1.5rem;
+  filter: invert(100%) sepia(7%) saturate(7489%) hue-rotate(198deg)
+    brightness(100%) contrast(110%);
 }
