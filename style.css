@@ -18,13 +18,24 @@
   --black: hsl(0, 0%, 0%);
 }
 
+@media screen and (max-width: 1120px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
 html {
-  font-size: 87.5%;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
 }
 
 body {
-  font-family: "Raleway", sans-serif;
-  font-weight: 400;
   background-color: var(--dark-blue-1);
 }
 
@@ -48,7 +59,7 @@ span {
 }
 
 h1 {
-  font-size: 1.4rem;
+  font-size: 2rem;
   font-weight: 700;
   line-height: 30px;
 }
@@ -130,15 +141,24 @@ header li {
 
 .hero {
   height: 100vh;
-  padding-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   /* TODO */
   /* background: url(/images/bg-curvy-mobile.svg);
   background-repeat: no-repeat;
   background-position: center; */
 }
 
+.heroContent {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .hero img {
-  width: 18rem;
+  width: 25rem;
   margin-bottom: 2rem;
 }
 
@@ -171,8 +191,12 @@ header li {
   margin-bottom: 2rem;
 }
 
-.team--text h2,
-p {
+/* TODO: Review this */
+.team--text > h2 {
+  text-align: left;
+}
+
+.team--text > p {
   text-align: left;
 }
 
